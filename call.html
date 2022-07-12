@@ -1,0 +1,47 @@
+
+01
+<html>
+02
+<head>
+03
+ 
+04
+<?php
+05
+ 
+06
+function myfunc()
+07
+{
+08
+$myFile = "testFile.txt";
+09
+$fh = fopen($myFile, 'w') or die("can't open file");
+10
+$stringData = "Hi there!";
+11
+fwrite($fh, $stringData);
+12
+fclose($fh);
+13
+}
+14
+ 
+15
+?>
+16
+ 
+17
+</head>
+18
+<body>
+19
+ 
+20
+<input type="button" onclick="myfunc()" value="Click!" />
+21
+ 
+22
+</body>
+23
+</html>

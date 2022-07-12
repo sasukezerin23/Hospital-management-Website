@@ -1,0 +1,68 @@
+*
+{
+	margin: 0;
+	padding: 0;
+}
+header
+{
+	background-image: url(do1.jpg);
+	height: 100vh;
+	background-size: cover;
+	background-position: center;  
+}
+.nav-bar
+{
+	background: rgb(0,0,0,0.5);
+	height: 80px;
+}
+.menu
+{
+	float: right;
+	list-style: none;
+	margin: 20px;
+
+}
+.menu li
+{
+	display: inline-block;
+	margin:  10px 5px;
+}
+.menu li a
+{
+	
+	text-decoration: none;
+	color: white;
+	padding: 5px 10px;
+	font-family: sans-serif;
+	letter-spacing: 2px;
+	border: 1px solid white;
+}
+.menu li a:hover
+{
+	background: #fff;
+	transition: .5s;
+    color: white; 
+}
+.welcome
+{
+	position: relative;
+	text-align: center;
+	font-family: sans-serif;
+	color:lightgray;
+	top: 160px;
+}
+.welcome h1
+{
+	font-size: 42px;
+	margin: 25px; 
+}
+.btn
+{
+	font-size:18px;
+	color: white;
+	letter-spacing: 2px;
+	margin: 5px;
+	padding: 10px 7px;
+	text-decoration: none;
+	border: 1px solid white; 
+}
